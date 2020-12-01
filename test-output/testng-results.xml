@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="nopCommerce" duration-ms="43664" started-at="2020-12-01T20:27:59 IST" finished-at="2020-12-01T20:28:43 IST">
+    <groups>
+      <group name="regression">
+        <method signature="TC_LoginTest_001.loginTest()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@7817fd62]" name="loginTest" class="com.nopcommerce.testCases.TC_LoginTest_001"/>
+        <method signature="TC_SearchCustomerByEmail_004.searchCustomerbyEmail()[pri:0, instance:com.nopcommerce.testCases.TC_SearchCustomerByEmail_004@8297b3a]" name="searchCustomerbyEmail" class="com.nopcommerce.testCases.TC_SearchCustomerByEmail_004"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_LoginTest_001.loginTest()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@7817fd62]" name="loginTest" class="com.nopcommerce.testCases.TC_LoginTest_001"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_LoginTest_001.loginTest()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@7817fd62]" name="loginTest" class="com.nopcommerce.testCases.TC_LoginTest_001"/>
+        <method signature="TC_SearchCustomerByEmail_004.searchCustomerbyEmail()[pri:0, instance:com.nopcommerce.testCases.TC_SearchCustomerByEmail_004@8297b3a]" name="searchCustomerbyEmail" class="com.nopcommerce.testCases.TC_SearchCustomerByEmail_004"/>
+      </group> <!-- master -->
+    </groups>
+    <test name="nopCommerceTests" duration-ms="43664" started-at="2020-12-01T20:27:59 IST" finished-at="2020-12-01T20:28:43 IST">
+      <class name="com.nopcommerce.testCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@7817fd62]" name="setup" is-config="true" duration-ms="9175" started-at="2020-12-01T20:28:00 IST" finished-at="2020-12-01T20:28:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@7817fd62]" name="loginTest" duration-ms="11716" started-at="2020-12-01T20:28:09 IST" finished-at="2020-12-01T20:28:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.nopcommerce.testCases.TC_LoginTest_001 -->
+      <class name="com.nopcommerce.testCases.TC_SearchCustomerByEmail_004">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_SearchCustomerByEmail_004@8297b3a]" name="setup" is-config="true" duration-ms="7333" started-at="2020-12-01T20:28:20 IST" finished-at="2020-12-01T20:28:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchCustomerbyEmail()[pri:0, instance:com.nopcommerce.testCases.TC_SearchCustomerByEmail_004@8297b3a]" name="searchCustomerbyEmail" duration-ms="15026" started-at="2020-12-01T20:28:28 IST" finished-at="2020-12-01T20:28:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerbyEmail -->
+      </class> <!-- com.nopcommerce.testCases.TC_SearchCustomerByEmail_004 -->
+    </test> <!-- nopCommerceTests -->
+  </suite> <!-- nopCommerce -->
+</testng-results>

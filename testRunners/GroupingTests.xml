@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="nopCommerce">
+	
+
+	<listeners>
+		<listener
+			class-name="com.nopcommerce.utilities.ExtentReportManager" />
+	</listeners>
+
+	<test name="nopCommerceTests">
+
+		<groups>
+			<run>
+				<include name="regression" />
+				<!-- <exclude name="regression"/> -->
+			</run>
+		</groups>
+
+		<parameter name="browser" value="chrome" />
+		<packages>
+			<package name="com.nopcommerce.testCases" />
+		</packages>
+	</test>
+
+</suite>
